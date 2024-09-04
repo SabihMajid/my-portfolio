@@ -27,6 +27,13 @@ export default function Project() {
             cover: "/Second1.png",
             background: "bg-indigo-500"
         },
+          {
+            tittle: "Digital Clock",
+            tech: [SiTypescript,SiTailwindcss,DiJavascript,DiHtml5],
+            Link: "https://github.com/SabihMajid/Digital-Clock",
+            cover: "/image2.png",
+            background: "bg-yellow-500"
+        },
         {
             tittle: "Bank frntend",
             tech: [SiReact,SiTailwindcss,DiJavascript],
