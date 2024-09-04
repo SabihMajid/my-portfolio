@@ -29,7 +29,7 @@ export default function Project() {
         },
           {
             tittle: "Digital Clock",
-            tech: [SiTypescript,SiTailwindcss,DiJavascript,DiHtml5],
+            tech: [SiTypescript,SiTailwindcss,DiJavascript],
             Link: "https://github.com/SabihMajid/Digital-Clock",
             cover: "/image2.png",
             background: "bg-yellow-500"
