@@ -27,14 +27,16 @@ export default function Project() {
             cover: "/Second1.png",
             background: "bg-indigo-500"
         },
+        <div className='w-full space-y-5 cursor-pointer border',>
         {
             tittle: "Digital Clock",
             tech: [SiTypescript,SiTailwindcss,DiJavascript,DiHtml5],
             Link: "https://github.com/SabihMajid/Digital-Clock",
-            <DirectionAwareHover imageUrl={_project.cover} className='w-full space-y-5 cursor-pointer border'>,
+            
             cover: "/image2.png",
             background: "bg-yellow-500"
-        },
+        }
+        </div>
         {
             tittle: "Bank frntend",
             tech: [SiReact,SiTailwindcss,DiJavascript],
