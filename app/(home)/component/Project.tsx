@@ -31,6 +31,7 @@ export default function Project() {
             tittle: "Digital Clock",
             tech: [SiTypescript,SiTailwindcss,DiJavascript,DiHtml5],
             Link: "https://github.com/SabihMajid/Digital-Clock",
+            <DirectionAwareHover imageUrl={_project.cover} className='w-full space-y-5 cursor-pointer border'>,
             cover: "/image2.png",
             background: "bg-yellow-500"
         },
