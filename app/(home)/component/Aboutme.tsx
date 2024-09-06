@@ -11,7 +11,7 @@ export default function About() {
     <section className="relative flex flex-col items-center p-8 py-10 sm:p-0 bg-black text-white">
       <div className="w-full text-center mb-8">
         <h1 className="text-4xl font-bold ">
-        <Title text='About Me!' className='flex flex-col px-10 items-center justify-center  -hue-rotate-30' />
+        <Title text='About!' className='flex flex-col px-10 items-center justify-center  -hue-rotate-30' />
             </h1>
       </div>
       <div className="flex flex-col md:flex-row items-center w-full">

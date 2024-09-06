@@ -7,7 +7,7 @@ import { cn } from '@/lib/utils'
 import {DirectionAwareHover} from '../../../components/ui/direction-aware-hover'
 import { RiNextjsFill } from 'react-icons/ri'
 import { SiReact, SiShadcnui, SiTailwindcss, SiTypescript } from 'react-icons/si'
-import { DiJavascript } from 'react-icons/di'
+import { DiHtml5, DiJavascript } from 'react-icons/di'
 
 export default function Project() {
 
@@ -26,6 +26,13 @@ export default function Project() {
             Link: "https://react-website-lovat-five.vercel.app/",
             cover: "/Second1.png",
             background: "bg-indigo-500"
+        },
+        {
+            tittle: "Digital Clock",
+            tech: [SiTypescript,SiTailwindcss,DiJavascript,DiHtml5],
+            Link: "https://github.com/SabihMajid/Digital-Clock",
+            cover: "/image2.png",
+            background: "bg-yellow-500"
         },
         {
             tittle: "Bank frntend",
