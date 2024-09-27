@@ -6,12 +6,12 @@ import React from 'react'
 const Navbar = ({className}:{className?:string}) => {
   const social = [
     {
-      Link: 'https://www.linkedin.com/in/hiba-zaheer-63a9922b7/',
+      Link: 'https://www.linkedin.com/in/sabhi-irfan-63a9922b7/',
       Label: "Linkedin",
       Icon: Linkedin,
     },
     {
-      Link: "https://github.com/hibazaheermeo",
+      Link: "https://github.com/SabihMajid",
       Label: "Github",
       Icon: Github,
 
@@ -28,7 +28,7 @@ const Navbar = ({className}:{className?:string}) => {
     <nav className={cn('py-10 flex justify-between items-center animate-move-down',
       className=""
   )}>
-      <h1 className='text-2xl font-medium underline rotate-0'>hibazaheer👩‍💼</h1>
+      <h1 className='text-2xl font-medium underline rotate-0'>Sabihirfan👨🏻‍💼</h1>
       <div className='flex items-center gap-4'>
         {social.map((social, index) => {
           const Icon = social.Icon;

@@ -9,8 +9,8 @@ export const metadata: Metadata = {
 	metadataBase: new URL("http://localhost:3000"),
 
 	title: {
-		template: "%s | hiba Portfolio",
-		default: "hiba Portfolio",
+		template: "%s | Sabih Portfolio",
+		default: "Sabih Portfolio",
 	},
 	authors: {
 		name: "chensokheng",
@@ -19,11 +19,11 @@ export const metadata: Metadata = {
 	description:
 		"Based in Pakistan I am a Next.js developer skilled in typescript, Phyton and React.I build high-quality web applications. Let's connect!",
 	openGraph: {
-		title: "hiba Portfolio",
+		title: "Sabih Portfolio",
 		description:
 			"Based in Pakistan I am a Next.js developer skilled in typescript, Phyton and React.I build high-quality web applications. Let's connect!",
 		url: "http://localhost:3000",
-		siteName: "hiba Portfolio",
+		siteName: "Sabih Portfolio",
 		images: "https://www.facebook.com/profile.php?id=100009395642095",
 		type: "website",
 	},

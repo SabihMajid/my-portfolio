@@ -1,5 +1,5 @@
 import Image from 'next/image'; // Adjust the path as needed
-import Images from './img8.jpg';
+import Images from './img1.jpg';
 import Title from './Title';
 import Link from 'next/link';
 import React from 'react';
@@ -18,7 +18,7 @@ export default function About() {
         <div className="md:w-1/2 w-full flex justify-center mb-6 md:mb-0">
           <Image 
             src={Images} 
-            alt="hiba zaheer" 
+            alt="Sabih meo" 
             className="rounded-lg shadow-lg"
             width={400} 
             height={400} 
@@ -26,7 +26,7 @@ export default function About() {
             />
         </div>
         <div className="md:w-1/2 w-full md:pl-8">
-          <h2 className="text-4xl font-bold mb-4">Hi there! I am hiba zaheer</h2>
+          <h2 className="text-4xl font-bold mb-4">Hi there! I am Sabih Majid</h2>
           <p className="text-xl mb-4">
             I am a skilled Front-End Developer specializing in HTML, CSS, Tailwind CSS, JavaScript, TypeScript, Node.js, and React (Next.js). I am passionate about creating innovative, user-friendly web applications that exceed client expectations.
           </p>
