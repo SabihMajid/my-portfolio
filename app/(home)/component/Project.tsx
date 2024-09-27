@@ -29,14 +29,14 @@ export default function Project() {
         {
             tittle: "Digital Clock",
             tech: [SiTypescript,SiTailwindcss,DiJavascript,DiHtml5],
-        Link: "https://github.com/SabihMajid/Digital-Clock",
+        Link: "https://github.com/hibazaheer/Digital-Clock",
             cover: "/image2.png",
             background: "bg-yellow-500"
         },
         {
             tittle: "Bank frntend",
             tech: [SiReact, SiTailwindcss, DiJavascript],
-            Link: "https://github.com/SabihMajid/Nextjs-Website",
+            Link: "https://github.com/hibazaheer/Nextjs-Website",
             cover: "/Secondimg.png",
             background: "bg-yellow-500"
         }

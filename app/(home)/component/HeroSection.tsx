@@ -7,10 +7,10 @@ const HeroSection = () => {
     return (
         <div className='min-h-[60vh] flex flex-col-reverse gap-14 lg:gap-0 lg:flex-row items-center justify-between animate-move-up'>
             <div className='space-y-10 text-center lg:text-left'>
-                <h1 className='text-4xl lg:text-7xl font-bold'>Nice to meet you!👋 
+                <h1 className='text-4xl lg:text-7xl text-blue-600 font-bold'>Nice to meet you!👋 
                     <br /> {" "}
                     <span className='underline underline-offset-8 '>
-                        {"I'm SabihIrfan."}
+                        {"I'm hiba Zaheer."}
                     </span>
                 </h1>
                 <p className='md:w-96 text-lg text-gray-300 '>
@@ -18,7 +18,7 @@ const HeroSection = () => {
                     "Based in Pakistan I am a Next.js developer skilled in typescript, Phyton and React.I build high-quality web applications. Let's connect!"
                      }
                 </p>
-                <Link href={"mailto:sabhiirfan3@gmail.com"} className='inline-block group' >
+                <Link href={"mailto:hibazaheer18@gmail.com"} className='inline-block group' >
                     <Title text='Contact Me✉️'/>
                 </Link>
             </div>
@@ -37,7 +37,7 @@ const HeroSection = () => {
                 <div className='absolute bottom-10 sm:bottom-14 left-5 sm:-left-10'>
                 <MovingBorderBtn borderRadius='0.5rem' className='p-3 font-semibold'>
                     <p>
-                   <Link href="https://www.linkedin.com/in/sabhi-irfan-63a9922b7/" target='_blank'> 🚀 Available for work</Link>
+                   <Link href="https://github.com/hibazaheermeo" target='_blank'> 🚀 Available for work</Link>
                     </p>
                 </MovingBorderBtn>
                 </div>
